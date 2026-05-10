@@ -1,3 +1,6 @@
+---
+title: Navria Lore
+---
 # Campaign Lore
 
 Welcome to the player-facing lore archive.
