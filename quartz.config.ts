@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Navria Lore",
+    pageTitle: "Navria Codex",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,

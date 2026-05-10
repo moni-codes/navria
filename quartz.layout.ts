@@ -35,7 +35,16 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      mapFn: (node) => {
+        if (node.displayName === "lore") node.displayName = "Lore"
+        if (node.displayName === "regions") node.displayName = "Regions"
+        if (node.displayName === "factions") node.displayName = "Factions"
+        if (node.displayName === "figures") node.displayName = "Figures"
+
+        return node
+      },
+    }),
   ],
   right: [
     //Component.Graph(),
@@ -59,7 +68,16 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      mapFn: (node) => {
+        if (node.displayName === "lore") node.displayName = "Lore"
+        if (node.displayName === "regions") node.displayName = "Regions"
+        if (node.displayName === "factions") node.displayName = "Factions"
+        if (node.displayName === "figures") node.displayName = "Figures"
+
+        return node
+      },
+    }),
   ],
   right: [],
 }
