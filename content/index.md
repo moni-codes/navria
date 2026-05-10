@@ -1,5 +1,5 @@
 ---
-title: Navria Lore
+title: Welcome!
 ---
 # Campaign Lore
 
