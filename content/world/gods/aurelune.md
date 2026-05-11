@@ -36,7 +36,7 @@ A golden key.
 
 ## Sacred Animal
 
-Monkey.
+Monkey
 
 ## Sacred Colors
 

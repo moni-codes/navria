@@ -39,7 +39,7 @@ An open eye above an unfurling scroll.
 
 ## Sacred Animal
 
-Moth.
+Moth
 
 ## Sacred Colors
 

@@ -35,7 +35,7 @@ A skull and crossbones.
 
 ## Sacred Animal
 
-Parrot.
+Parrot
 
 ## Sacred Colors
 
