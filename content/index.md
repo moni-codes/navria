@@ -3,13 +3,22 @@ title: Welcome!
 ---
 # Campaign Lore
 
-Welcome to the player-facing lore archive.
+Welcome to the world of Navria.
 
-## 🌊 Regions
-- [[nacreveil-isles]]
+## ⚔️ Campaign
+- [[campaigns/what-the-tide-brings|What the Tide Brings]]
 
-## ⚔️ Factions
-- [[thornbound-empire]]
+## 🌍 Regions
+- [[world/nacreveil-isles|Nacreveil Isles]]
+- [[Thornbound Empire]]
+- [[Etherin]]
+
+## 🏴 Notable Factions
+- [[liege-houses]]
 
 ## 👑 Notable Figures
 - [[lysoria-nacreveil]]
+
+
+> [!info]
+> Kordite was only recently discovered, reshaping global trade and politics.

@@ -1,0 +1,3 @@
+---
+title: Prominent Figures
+---

@@ -35,7 +35,15 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      folderClickBehavior: "collapse",
+      sortFn: (a, b) => {
+        const aName = a.data?.filePath ?? a.displayName
+        const bName = b.data?.filePath ?? b.displayName
+
+        return aName.localeCompare(bName)
+      },
+    }),
   ],
   right: [
     //Component.Graph(),
