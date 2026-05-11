@@ -1,7 +1,7 @@
 ---
 title: What the Tide Brings
 ---
-Two weeks ago, a drowned castle rose from the center of the Iris Atoll off the Sirocco coast of Kaivara, the largest island of the Nacreveil Isles.
+Two weeks ago, a drowned castle rose from the center of the Iris Atoll off the Sirocco coast of [[world/nacreveil-isles/islands/01-kaivara|Kaivara]], the largest island of the [[world/nacreveil-isles|Nacreveil Isles]].
 
 Since then, the Isles have begun to change.
 
@@ -9,7 +9,7 @@ Pearl divers return with pearls coated in a strange blood that refuses to wash a
 
 Some sailors now claim to have seen mermaids gathering in the waters surrounding the castle at dusk — watching passing ships from beneath the waves before disappearing into the deep.
 
-As unrest grows, Tide Regent Lysoria Nacreveil has ordered her Tidewardens to investigate the castle. Yet each day they enter at dawn and return by dusk with fewer answers than before.
+As unrest grows, Tide Regent [[world/figures/lysoria-nacreveil|Lysoria Nacreveil]] has ordered her Tidewardens to investigate the castle. Yet each day they enter at dawn and return by dusk with fewer answers than before.
 
 Now others seek opportunity in the chaos.
 

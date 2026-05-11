@@ -10,15 +10,11 @@ Welcome to the world of Navria.
 
 ## 🌍 Regions
 - [[world/nacreveil-isles|Nacreveil Isles]]
-- [[Thornbound Empire]]
-- [[Etherin]]
+- [[world/thornbound-empire|Thornbound Empire]]
+- [[world/etherin|Etherin]]
 
 ## 🏴 Notable Factions
-- [[liege-houses]]
+- [[word/factions/liege-houses|Liege Houses]]
 
 ## 👑 Notable Figures
-- [[lysoria-nacreveil]]
-
-
-> [!info]
-> Kordite was only recently discovered, reshaping global trade and politics.
+- [[world/figures/lysoria-nacreveil|Lysoria Nacreveil]]

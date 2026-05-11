@@ -68,7 +68,7 @@ Blackwake Point maintains some of the oldest active lighthouse towers in the Isl
 
 Local traditions surrounding storms and sea omens are taken far more seriously here than elsewhere in Kaivara.
 
-## House Marrowyn
+### House Marrowyn
 
 The noble House Marrowyn historically oversaw Blackwake Point and its surrounding waters.
 
