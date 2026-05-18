@@ -43,6 +43,22 @@ export const defaultContentPageLayout: PageLayout = {
 
         return aName.localeCompare(bName)
       },
+      mapFn: (node) => {
+        let name = node.displayName.replace(/^\d+-/, "")
+
+        const smallWords = ["the", "of", "and", "in"]
+
+        name = name
+          .split("-")
+          .map((word, index) => {
+            if (index !== 0 && smallWords.includes(word)) return word
+            return word.charAt(0).toUpperCase() + word.slice(1)
+          })
+          .join(" ")
+
+        node.displayName = name
+        return node
+      },
     }),
   ],
   right: [
@@ -68,12 +84,27 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
+      folderClickBehavior: "collapse",
+      sortFn: (a, b) => {
+        const aName = a.data?.filePath ?? a.displayName
+        const bName = b.data?.filePath ?? b.displayName
+
+        return aName.localeCompare(bName)
+      },
       mapFn: (node) => {
-        node.displayName = node.displayName
+        let name = node.displayName.replace(/^\d+-/, "")
+
+        const smallWords = ["the", "of", "and", "in"]
+
+        name = name
           .split("-")
-          .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+          .map((word, index) => {
+            if (index !== 0 && smallWords.includes(word)) return word
+            return word.charAt(0).toUpperCase() + word.slice(1)
+          })
           .join(" ")
 
+        node.displayName = name
         return node
       },
     }),

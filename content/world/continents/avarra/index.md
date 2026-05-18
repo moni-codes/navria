@@ -1,3 +1,3 @@
 ---
-Title: Avarra
+title: Avarra
 ---

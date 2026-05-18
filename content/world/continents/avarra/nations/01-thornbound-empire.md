@@ -1,5 +1,5 @@
 ---
-Title: Thornbound Empire
+title: Thornbound Empire
 ---
 # Thornbound Empire
 

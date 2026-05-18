@@ -1,3 +1,3 @@
 ---
-Title: Nations of Avarra
+title: Nations of Avarra
 ---
