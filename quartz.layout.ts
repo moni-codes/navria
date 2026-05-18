@@ -69,10 +69,10 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       mapFn: (node) => {
-        if (node.displayName === "lore") node.displayName = "Lore"
-        if (node.displayName === "regions") node.displayName = "Regions"
-        if (node.displayName === "factions") node.displayName = "Factions"
-        if (node.displayName === "figures") node.displayName = "Figures"
+        node.displayName = node.displayName
+          .split("-")
+          .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+          .join(" ")
 
         return node
       },
